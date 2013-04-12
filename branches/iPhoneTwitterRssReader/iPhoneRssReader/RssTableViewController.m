@@ -40,7 +40,7 @@
     rssData = [NSMutableArray array];
     
     RssHttpController *httpController = [[RssHttpController alloc] init];
-    [httpController getRSSContent:[[NSNumber numberWithInt:1] stringValue] rssurl:@"http://jmsliu.com/feed?paged=" delegate:self];
+    [httpController getRSSContent:[[NSNumber numberWithInt:1] stringValue] rssurl:@"https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=nba" delegate:self];
 }
 
 - (void)viewDidUnload
@@ -100,7 +100,7 @@
     
     // Configure the cell...
     [cell.textLabel setText:[rssData objectAtIndex:indexPath.row]];
-    [cell.imageView setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://www.axialis.com/tutorials/iw/star.jpg"]]]];
+    //[cell.imageView setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://www.axialis.com/tutorials/iw/star.jpg"]]]];
     
     return cell;
 }

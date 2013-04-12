@@ -32,6 +32,7 @@
     else if([elementName isEqualToString:@"title"])
     {
         aNode = title;
+        lastTitle = @"";
     }
     else if([elementName isEqualToString:@"link"])
     {
@@ -60,7 +61,7 @@
             string = [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
             if(string.length != 0)
             {
-                lastTitle = string;
+                lastTitle = [lastTitle stringByAppendingString:string];
             }
         }
         
@@ -71,6 +72,8 @@
             string = [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
             if(string.length != 0 && articles != nil)
             {
+                NSLog(@"%@", lastTitle);
+                lastTitle = [lastTitle stringByReplacingOccurrencesOfString:@"&amp;" withString:@"&"];
                 [articles setObject:string forKey:lastTitle];
             }
         }

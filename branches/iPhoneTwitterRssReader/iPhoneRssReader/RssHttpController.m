@@ -12,7 +12,7 @@
 
 -(NSURLConnection *)getRSSContent:(NSString *)pageID rssurl:(NSString *)url delegate:(id<NSURLConnectionDataDelegate>)delegate
 {
-    NSURL *urlRef = [NSURL URLWithString:[url stringByAppendingString:pageID]];
+    NSURL *urlRef = [NSURL URLWithString:url];
     
     NSURLRequest *rssRequest = [NSURLRequest requestWithURL:urlRef];
     NSURLConnection *connect = [[NSURLConnection alloc] initWithRequest:rssRequest delegate:delegate startImmediately:YES];

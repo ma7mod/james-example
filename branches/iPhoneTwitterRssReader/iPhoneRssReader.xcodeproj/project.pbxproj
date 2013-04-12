@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A04B4C316DB131500C2ECAE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A04B4C216DB131500C2ECAE /* AdSupport.framework */; };
+		1A04B4C316DB131500C2ECAE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A04B4C216DB131500C2ECAE /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		1A05460816840A5E002D7017 /* RssXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05460716840A5E002D7017 /* RssXMLParser.m */; };
 		1A0A15CD167C69DA001DDE67 /* RssHttpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A15CC167C69DA001DDE67 /* RssHttpController.m */; };
 		1A32D6DA16730CBB00F77EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32D6D916730CBB00F77EF8 /* UIKit.framework */; };
@@ -18,7 +18,7 @@
 		1A32D6EA16730CBB00F77EF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32D6E916730CBB00F77EF8 /* AppDelegate.m */; };
 		1A32D6ED16730CBB00F77EF8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A32D6EB16730CBB00F77EF8 /* MainStoryboard.storyboard */; };
 		1A32D6FB167316CE00F77EF8 /* RssTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32D6FA167316CE00F77EF8 /* RssTableViewController.m */; };
-		1A9F3E5716D10960000907FD /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9F3E2616D10960000907FD /* libGoogleAdMobAds.a */; };
+		1A9F3E5716D10960000907FD /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9F3E2616D10960000907FD /* libGoogleAdMobAds.a */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1A9F3E5816D10960000907FD /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1A9F3E2716D10960000907FD /* README.txt */; };
 		1A9F3E6116D11A2A000907FD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9F3E6016D11A2A000907FD /* StoreKit.framework */; };
 		1A9F3E6316D11A76000907FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9F3E6216D11A76000907FD /* SystemConfiguration.framework */; };
@@ -321,7 +321,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneRssReader/iPhoneRssReader-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneRssReader/iPhoneRssReader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/iPhoneRssReader/GoogleAdMobAdsSdkiOS-6.3.0/Add-ons/GoogleAnalyticsiOS_2.0beta4/Library\"",
@@ -339,7 +339,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneRssReader/iPhoneRssReader-Prefix.pch";
 				INFOPLIST_FILE = "iPhoneRssReader/iPhoneRssReader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/iPhoneRssReader/GoogleAdMobAdsSdkiOS-6.3.0/Add-ons/GoogleAnalyticsiOS_2.0beta4/Library\"",

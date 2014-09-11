@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WallpaperGridViewExample</string>
+    <string name="action_settings">More</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="previewImageView">Wallpaper Preview</string>
+	<string name="action_setwallpaper">Set Wallpaper</string>
+	<string name="back_to_Main">Back</string>
+</resources>
